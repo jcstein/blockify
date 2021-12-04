@@ -140,6 +140,15 @@ function Layout({ children }: { children: React.ReactNode }) {
               <li>
                 <a href="https://github.com/blockify-shop">GitHub</a>
               </li>
+              <li>
+                <a href="https://t.me/+civMfboiacs1NTcx">Telegram</a>
+              </li>
+              <li>
+                <a href="https://discord.gg/us98czQm">Discord</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/BlockifyShop">Twitter</a>
+              </li>
             </ul>
           </nav>
         </div>
