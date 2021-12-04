@@ -19,7 +19,7 @@ export let loader: LoaderFunction = () => {
       },
       {
         name: "Discord ➡️ join our community",
-        url: "https://discord.gg",
+        url: "https://discord.gg/us98czQm",
       },
     ],
     demos: [
