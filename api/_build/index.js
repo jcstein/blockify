@@ -453,7 +453,7 @@ var loader = () => {
         url: "https://github.com/blockify-shop",
       },
       {
-        name: "Discord \u27A1\uFE0F join our community",
+        name: "Discord \u27A1\uFE0F join our server",
         url: "https://discord.gg/us98czQm",
       },
     ],
@@ -469,7 +469,8 @@ var loader = () => {
 var meta2 = () => {
   return {
     title: "blockify",
-    description: "welcome to blockify!",
+    description:
+      "welcome to blockify! we're building eCommerce solutions on the Blockchain",
   };
 };
 function Index2() {
