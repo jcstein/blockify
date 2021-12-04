@@ -1,5 +1,7 @@
 # welcome to blockify!
 
+we're building eCommerce solutions on the Blockchain
+
 - [visit our site](https://blockify.shop)
 - [Remix Docs](https://remix.run/docs)
 
