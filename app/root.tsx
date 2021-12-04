@@ -143,12 +143,12 @@ function Layout({ children }: { children: React.ReactNode }) {
               <li>
                 <a href="https://t.me/+civMfboiacs1NTcx">Telegram</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="https://discord.gg/us98czQm">Discord</a>
               </li>
               <li>
                 <a href="https://twitter.com/BlockifyShop">Twitter</a>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>
