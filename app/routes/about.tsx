@@ -17,7 +17,7 @@ export default function Index() {
   return (
     <div className="about">
       <div className="about__intro">
-        <h2>About Us</h2>
+        <h2>about us</h2>
         <p>
           Ok, so this page isn't really <em>about us</em> (yet), but we did want
           to tell you how this project started.
