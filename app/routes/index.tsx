@@ -54,7 +54,7 @@ export default function Index() {
     <div className="remix__page">
       <main>
         <h2>welcome to blockify!</h2>
-        <p>we're building web3 eCommerce solutions on the blockchain</p>
+        <p>building web3 eCommerce solutions on the blockchain</p>
       </main>
       <aside>
         <h2>Join Our Community</h2>
