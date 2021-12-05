@@ -147,7 +147,7 @@ function Layout({ children }: { children: React.ReactNode }) {
                 <a href="https://discord.gg/us98czQm">Discord</a>
               </li>
               <li>
-                <a href="https://twitter.com/BlockifyShop">Twitter</a>
+                <a href="https://twitter.com/shopblockify">Twitter</a>
               </li> */}
             </ul>
           </nav>
@@ -158,7 +158,7 @@ function Layout({ children }: { children: React.ReactNode }) {
       </div>
       <footer className="remix-app__footer">
         <div className="container remix-app__footer-content">
-          <a href="https://twitter.com/BlockifyShop">
+          <a href="https://twitter.com/shopblockify">
             follow blockify on Twitter
           </a>
         </div>
