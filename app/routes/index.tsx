@@ -22,8 +22,8 @@ export let loader: LoaderFunction = () => {
         url: "https://discord.gg/us98czQm",
       },
       {
-        name: "Telegram ➡️ chat",
-        url: "https://t.me/+civMfboiacs1NTcx",
+        name: "💧 minting demo",
+        url: "https://mint.blockify.shop",
       },
     ],
     demos: [
