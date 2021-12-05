@@ -14,7 +14,7 @@ export let loader: LoaderFunction = () => {
   let data: IndexData = {
     resources: [
       {
-        name: "visit our GitHub org",
+        name: "contribute to our GitHub org",
         url: "https://github.com/blockify-shop",
       },
       {
