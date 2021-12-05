@@ -25,6 +25,10 @@ export let loader: LoaderFunction = () => {
         name: "💧 minting demo",
         url: "https://mint.blockify.shop",
       },
+      {
+        name: "💬 telegram",
+        url: "https://t.me/+civMfboiacs1NTcx",
+      },
     ],
     demos: [
       {
@@ -65,7 +69,7 @@ export default function Index() {
             </li>
           ))}
         </ul>
-        <h2>More</h2>
+        <h2>more</h2>
         <ul>
           {data.demos.map((demo) => (
             <li key={demo.to} className="remix__page__resource">
