@@ -18,7 +18,7 @@ export let loader: LoaderFunction = () => {
         url: "https://github.com/blockify-shop",
       },
       {
-        name: "Discord ➡️ join our server",
+        name: "Discord ➡️ join the server",
         url: "https://discord.gg/us98czQm",
       },
       {
