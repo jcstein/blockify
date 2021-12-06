@@ -13,10 +13,10 @@ type IndexData = {
 export let loader: LoaderFunction = () => {
   let data: IndexData = {
     resources: [
-      {
-        name: "contribute to our GitHub org",
-        url: "https://github.com/blockify-shop",
-      },
+      // {
+      //   name: "contact our GitHub org",
+      //   url: "https://github.com/blockify-shop",
+      // },
       // {
       //   name: "Discord ➡️ join the server",
       //   url: "https://discord.gg/us98czQm",
@@ -26,7 +26,7 @@ export let loader: LoaderFunction = () => {
         url: "https://mint.blockify.shop",
       },
       {
-        name: "💬 mail us",
+        name: "💬 email us, we're building our MVP",
         url: "mailto:buidl@blockify.shop",
       },
     ],
