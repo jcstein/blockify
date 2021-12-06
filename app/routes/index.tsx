@@ -17,10 +17,10 @@ export let loader: LoaderFunction = () => {
         name: "contribute to our GitHub org",
         url: "https://github.com/blockify-shop",
       },
-      {
-        name: "Discord ➡️ join the server",
-        url: "https://discord.gg/us98czQm",
-      },
+      // {
+      //   name: "Discord ➡️ join the server",
+      //   url: "https://discord.gg/us98czQm",
+      // },
       {
         name: "💧 minting demo",
         url: "https://mint.blockify.shop",
