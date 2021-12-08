@@ -23,7 +23,7 @@ export default function Index() {
           to tell you how this project started.
         </p>
         <p>
-          We'll have more coming soon, but <em>for now</em>{" "}
+          We will have more coming soon, but <em>for now</em>{" "}
           <a href="https://twitter.com/FarzaTV/status/1466967658348400643?s=20">
             here's a bit about what sparked the idea
           </a>
