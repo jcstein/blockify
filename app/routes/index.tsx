@@ -26,7 +26,7 @@ export let loader: LoaderFunction = () => {
         url: "https://mint.blockify.shop",
       },
       {
-        name: "💬 email us, we're building our MVP",
+        name: "💬 email us, we're building our POC",
         url: "mailto:buidl@blockify.shop",
       },
     ],
