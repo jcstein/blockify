@@ -155,7 +155,7 @@ function Layout({ children }: { children: React.ReactNode }) {
       </div>
       <footer className="remix-app__footer">
         <div className="container remix-app__footer-content">
-          <a href="https://twitter.com/BlockifyShop">
+          <a href="https://twitter.com/blockifyit">
             follow blockify on Twitter
           </a>
         </div>
