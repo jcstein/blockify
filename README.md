@@ -1,4 +1,6 @@
-# welcome to blockify!
+# welcome to blockify! -- this is an archive repo
+
+![image](https://github.com/jcstein/blockify/assets/46639943/29ea72e0-509a-43ff-9388-0f0029530a1a)
 
 we're building eCommerce solutions on the Blockchain
 
@@ -45,3 +47,5 @@ to go!
 If you're used to using the `vercel dev` command provided by
 [Vercel CLI](https://vercel.com/cli) instead, you can also use that, but it's
 not needed.
+
+![image](https://github.com/jcstein/blockify/assets/46639943/8883f722-b353-460a-bf02-0a0d1e3289d2)
