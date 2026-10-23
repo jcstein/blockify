@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "blockify",
+  "compatibility_date": "2026-10-23",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "./workers/app.ts",
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1
+    },
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 1
+    }
+  },
+  // jcstein.dev must be an active zone on the same Cloudflare account.
+  // `wrangler deploy` creates the DNS record and certificate for this hostname.
+  "routes": [
+    {
+      "pattern": "blockify.jcstein.dev",
+      "custom_domain": true
+    }
+  ]
+}
