@@ -1,26 +1,16 @@
-import type { MetaFunction, LoaderFunction } from "remix";
-import { useLoaderData, json, Link } from "remix";
+import { Link } from "react-router";
+import type { Route } from "./+types/index";
 
 type IndexData = {
   resources: Array<{ name: string; url: string }>;
   demos: Array<{ name: string; to: string }>;
 };
 
-// Loaders provide data to components and are only ever called on the server, so
-// you can connect to a database or run any server side code you want right next
-// to the component that renders it.
-// https://remix.run/api/conventions#loader
-export let loader: LoaderFunction = () => {
-  let data: IndexData = {
+// Loaders provide data to components and run on the server.
+// https://reactrouter.com/start/framework/data-loading
+export function loader(): IndexData {
+  return {
     resources: [
-      // {
-      //   name: "contact our GitHub org",
-      //   url: "https://github.com/blockify-shop",
-      // },
-      // {
-      //   name: "Discord ➡️ join the server",
-      //   url: "https://discord.gg/us98czQm",
-      // },
       {
         name: "💧 minting demo",
         url: "https://mint.blockify.shop",
@@ -37,23 +27,16 @@ export let loader: LoaderFunction = () => {
       },
     ],
   };
+}
 
-  // https://remix.run/api/remix#json
-  return json(data);
-};
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "blockify" },
+    { name: "description", content: "welcome to blockify!" },
+  ];
+}
 
-// https://remix.run/api/conventions#meta
-export let meta: MetaFunction = () => {
-  return {
-    title: "blockify",
-    description: "welcome to blockify!",
-  };
-};
-
-// https://remix.run/guides/routing#index-routes
-export default function Index() {
-  let data = useLoaderData<IndexData>();
-
+export default function Index({ loaderData }: Route.ComponentProps) {
   return (
     <div className="remix__page">
       <main>
@@ -63,7 +46,7 @@ export default function Index() {
       <aside>
         <h2>Join Our Community</h2>
         <ul>
-          {data.resources.map((resource) => (
+          {loaderData.resources.map((resource) => (
             <li key={resource.url} className="remix__page__resource">
               <a href={resource.url}>{resource.name}</a>
             </li>
@@ -71,7 +54,7 @@ export default function Index() {
         </ul>
         <h2>more</h2>
         <ul>
-          {data.demos.map((demo) => (
+          {loaderData.demos.map((demo) => (
             <li key={demo.to} className="remix__page__resource">
               <Link to={demo.to} prefetch="intent">
                 {demo.name}

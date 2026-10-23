@@ -1,19 +1,17 @@
-import { Outlet } from "remix";
-import type { MetaFunction, LinksFunction } from "remix";
+import { Outlet } from "react-router";
+import type { Route } from "./+types/about";
 
-import stylesUrl from "~/styles/demos/about.css";
+import stylesUrl from "~/styles/demos/about.css?url";
 
-export let meta: MetaFunction = () => {
-  return {
-    title: "About Remix",
-  };
-};
+export function meta({}: Route.MetaArgs) {
+  return [{ title: "About Remix" }];
+}
 
-export let links: LinksFunction = () => {
+export function links() {
   return [{ rel: "stylesheet", href: stylesUrl }];
-};
+}
 
-export default function Index() {
+export default function About() {
   return (
     <div className="about">
       <div className="about__intro">
